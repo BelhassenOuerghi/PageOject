@@ -35,7 +35,7 @@ public class LoginTest {
   
         LoginPage loginPage = new LoginPage(driver);  
         loginPage.failLoginAs("nobody", "WRONG");  
-        assertTrue(loginPage.getErrorMessage().contains("Reason: Bad credentials."));  
+        assertTrue(loginPage.getErrorMessage().contains("Reason: Bad credentials."));    
     }  
   
 }  
